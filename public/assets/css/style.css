@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.20);
+}
+
+.text-nav-active {
+    color:black;
+}
+
+#hero {
+    background-image: url("../images/Vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    z-index: -99;
+}
+
+.hero-title {
+    padding-top: 240px;
+}
+
+.hero-title-2 {
+    font-size: 120px;
+    font-weight: 800;
+}
+
+.hero-title-3  {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.hero-title-4 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+#program {
+    margin-top: -120px;
+}
+
+.program-2 h2 {
+    font-weight: 800;
+}
+
+.program-2 {
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.20);
+}
+
+#berita {
+    padding-top: 100px;
+}
+
+.image-card1 {
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.image-card1{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* Join */
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color:#E60800;
+}
+
+/* Video */
+#video {
+    background-image: url(../images/image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* Foto */
+/* Paralax Background */
+
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parallax {
+    background-image: url(../images/Group\ 6.png);
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #ffff;
+}
+
+/* Responsive Design */
+@media screen and (min-width: 550px) {
+    .hero-title-2 {
+        font-size: 55px;
+        font-weight: 800;
+    }
+
+    .hero-title-3, .hero-title-4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero-title-2 {
+        font-size: 90px;
+        font-weight: 800;
+    }
+
+    .hero-title-3, .hero-title-4{
+        font-size: 30px;
+    }
+
+    .program-2 h2 {
+        font-size: 25px;
+    }
+
+    #program {
+        margin-top: -120px;
+    }
+    .program-2 {
+        height: 120px;
+    }
+
+    .program-2 img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-title-2 {
+        font-size: 120px;
+        font-weight: 800;
+    }
+
+    .hero-title-3, .hero-title-4{
+        font-size: 35px;
+    }
+}
